@@ -1,4 +1,4 @@
-vim.opt.colorcolumn = "80"
+vim.opt.colorcolumn = "120"
 
 local imported, flutter_tools = pcall(require, "flutter-tools")
 if (not imported) then
@@ -18,7 +18,7 @@ flutter_tools.setup({
       completeFunctionCalls = true,
       enableSnippets = true,
       updateImportsOnRename = true,
-      lineLength = 80,
+      lineLength = 120,
       analysisExcludedFolders = {
         ".bin/**",
         "lib/generated/**",
